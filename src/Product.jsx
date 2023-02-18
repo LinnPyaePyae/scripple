@@ -4,26 +4,64 @@ const Product = () => {
   const products = [
     {
       id: 1,
-      title: "iPhone 9",
+      title:
+        "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      price: 695,
       description:
-        "An apple mobile which is nothing like apple with latest model that you will like our product",
-      price: 549,
-      discountPercentage: 12.96,
-      rating: 4.69,
-      stock: 94,
-      brand: "Apple",
-      category: "smartphones",
-      thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      images: [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      ],
+        "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      category: "jewelery",
+      thumbnail:
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      rating: {
+        rate: 4.6,
+        count: 400,
+      },
     },
     {
       id: 2,
+      title: "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      price: 9.85,
+      description:
+        "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      category: "women's clothing",
+      thumbnail: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      rating: {
+        rate: 4.7,
+        count: 130,
+      },
+    },
+    {
+      id: 3,
+      title:
+        "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      price: 29.95,
+      description:
+        "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      category: "women's clothing",
+      thumbnail: "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      rating: {
+        rate: 2.9,
+        count: 340,
+      },
+    },
+
+    {
+      id: 4,
+      title: "Mens Casual Premium Slim Fit T-Shirts ",
+      price: 22.3,
+      description:
+        "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing.",
+      category: "men's clothing",
+      thumbnail:
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      rating: {
+        rate: 4.1,
+        count: 259,
+      },
+    },
+
+    {
+      id: 5,
       title: "iPhone X",
       description:
         "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
@@ -41,22 +79,9 @@ const Product = () => {
         "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       ],
     },
+
     {
-      id: 3,
-      title: "Samsung Universe 9",
-      description:
-        "Samsung's new variant which goes beyond Galaxy to the Universe",
-      price: 1249,
-      discountPercentage: 15.46,
-      rating: 4.09,
-      stock: 36,
-      brand: "Samsung",
-      category: "smartphones",
-      thumbnail: "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-      images: ["https://i.dummyjson.com/data/products/3/1.jpg"],
-    },
-    {
-      id: 4,
+      id: 6,
       title: "OPPOF19",
       description: "OPPO F19 is officially announced on April 2021.",
       price: 280,
@@ -75,25 +100,28 @@ const Product = () => {
       ],
     },
     {
-      id: 5,
-      title: "Huawei P30",
+      id: 7,
+      title: "iPhone 9",
       description:
-        "P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made UK.",
-      price: 499,
-      discountPercentage: 10.58,
-      rating: 4.09,
-      stock: 32,
-      brand: "Huawei",
+        "An apple mobile which is nothing like apple with latest model that you will like our product",
+      price: 549,
+      discountPercentage: 12.96,
+      rating: 4.69,
+      stock: 94,
+      brand: "Apple",
       category: "smartphones",
-      thumbnail: "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+      thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
       images: [
-        "https://i.dummyjson.com/data/products/5/1.jpg",
-        "https://i.dummyjson.com/data/products/5/2.jpg",
-        "https://i.dummyjson.com/data/products/5/3.jpg",
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/4.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
       ],
     },
+
     {
-      id: 6,
+      id: 8,
       title: "MacBook Pro",
       description:
         "MacBook Pro 2021 with mini-LED display may launch between September, November",
@@ -112,7 +140,7 @@ const Product = () => {
       ],
     },
     {
-      id: 7,
+      id: 9,
       title: "Samsung Galaxy Book",
       description:
         "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
@@ -130,28 +158,9 @@ const Product = () => {
         "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
       ],
     },
+
     {
-      id: 8,
-      title: "Microsoft Surface Laptop 4",
-      description:
-        "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      price: 1499,
-      discountPercentage: 10.23,
-      rating: 4.43,
-      stock: 68,
-      brand: "Microsoft Surface",
-      category: "laptops",
-      thumbnail: "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-      images: [
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-      ],
-    },
-    {
-      id: 9,
+      id: 10,
       title: "Infinix INBOOK",
       description:
         "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
@@ -170,25 +179,7 @@ const Product = () => {
         "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
       ],
     },
-    {
-      id: 10,
-      title: "HP Pavilion 15-DK1056WM",
-      description:
-        "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      price: 1099,
-      discountPercentage: 6.18,
-      rating: 4.43,
-      stock: 89,
-      brand: "HP Pavilion",
-      category: "laptops",
-      thumbnail: "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
-      images: [
-        "https://i.dummyjson.com/data/products/10/1.jpg",
-        "https://i.dummyjson.com/data/products/10/2.jpg",
-        "https://i.dummyjson.com/data/products/10/3.jpg",
-        "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
-      ],
-    },
+
     {
       id: 11,
       title: "perfume Oil",
@@ -396,7 +387,7 @@ const Product = () => {
               <img src={product.thumbnail} alt="" className="productimg" />
               <p className="title text-truncate">{product.title}</p>
               <p class="desc text-black-80 text-truncate">
-                ${product.description}
+                {product.description}
               </p>
               <hr />
               <div class="d-flex justify-content-between align-items-center pt-3">
